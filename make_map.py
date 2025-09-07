@@ -6,12 +6,12 @@ from folium.plugins import MarkerCluster
 
 # 2. Define the geographic area and feature tags to download
 place = "Villavicencio, Colombia"
-tags = {"amenity": "university", "amenity": "college"}
+tags = {"sport": "tennis"}
 description = "university"
 zoom_level = 13
 
 # 3. Specify which fields to show inside marker popups
-popup_fields = ["name", "amenity", "university", "college"]
+popup_fields = ["name", "amenity", "sport", "college"]
 
 # 4. Download bus stop features from OpenStreetMap for the chosen place
 gdf = ox.features_from_place(place, tags=tags)
