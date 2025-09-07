@@ -6,7 +6,7 @@ from folium.plugins import MarkerCluster
 
 # 2. Define the geographic area and feature tags to download
 place = "Villavicencio, Colombia"
-tags = {"sport": "tennis"}
+tags = {"sport": "tennis", "leisure": "sports_centre"}
 description = "university"
 zoom_level = 13
 
